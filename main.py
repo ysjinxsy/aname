@@ -16,5 +16,5 @@ DATABASE_PATH = "database.db"
 # Assuming you have commands defined in commands.py
 from commands import *
 
-client.run("MTI1NjAwMjgwMTg2ODIxMDMxNg.Gej14G.UuGWGuYSH0omrhECgmegcyiJlkZrcr8QvjddDY")
+client.run(process.env.token)
 
