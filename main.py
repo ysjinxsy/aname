@@ -12,9 +12,9 @@ guild_id = [1266153230300090450, 1221092843288920065]
 client = commands.Bot(command_prefix="?", intents=intents)
 DATABASE_PATH = "database.db"
 
-tokeng = os.getenv('token')
+discord_token = os.getenv("TOKEN")
 # Assuming you have commands defined in commands.py
 from commands import *
 
-client.run(tokeng)
+client.run(discord_token)
 
