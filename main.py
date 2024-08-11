@@ -4,7 +4,7 @@ import aiosqlite #type: ignore
 import logging
 import os
 from shared import guild_id
-
+tokeng = "MTI1NjAwMjgwMTg2ODIxMDMxNg.GQqCD4.Zl7oLgcT7Yw8a_Tt78jGkVXgjcj8BaNZzRA9g4"
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -17,5 +17,5 @@ tokeng = os.environ.get('token')
 # Assuming you have commands defined in commands.py
 from commands import *
 
-client.run(token)
+client.run(tokeng)
 
