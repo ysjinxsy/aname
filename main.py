@@ -17,5 +17,5 @@ tokeng = os.environ.get('token')
 # Assuming you have commands defined in commands.py
 from commands import *
 
-client.run(env.token)
+client.run(token)
 
