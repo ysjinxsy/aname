@@ -25,9 +25,8 @@ def hello_world():
     return 'Hello World!'
 
 if __name__ == "__main__":
-    app.run(port=port)
+    app.run(port=5000)
 # Assuming you have commands defined in commands.py
 from commands import *
-
 client.run(discord_token)
 
