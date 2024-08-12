@@ -14,7 +14,17 @@ DATABASE_PATH = "database.db"
 
 
 discord_token = os.environ.get('TOKEN')
+from flask import Flask
 
+app = Flask(__name__)
+port = int(os.environ.get('PORT', 4000))
+
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
+
+if __name__ == "__main__":
+    app.run(port=port)
 # Assuming you have commands defined in commands.py
 from commands import *
 
