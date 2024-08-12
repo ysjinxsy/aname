@@ -18,7 +18,7 @@ discord_token = os.environ.get('TOKEN')
 from flask import Flask
 
 app = Flask(__name__)
-port = int(os.environ.get('PORT', 4000))
+port = int(os.environ.get('PORT', 5000))
 
 @app.route('/')
 def hello_world():
