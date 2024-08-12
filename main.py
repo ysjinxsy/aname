@@ -3,6 +3,7 @@ from nextcord.ext import commands #type: ignore
 import aiosqlite #type: ignore
 import logging
 import os
+from flask import Flask
 from shared import guild_id
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
