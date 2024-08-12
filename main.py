@@ -14,8 +14,9 @@ DATABASE_PATH = "database.db"
 
 
 discord_token = os.environ.get('TOKEN')
+
 # Assuming you have commands defined in commands.py
 from commands import *
 
-client.run(discord_token)
+client.run('MTI1NjAwMjgwMTg2ODIxMDMxNg.GfZ0tU.axxwIDsFD5GQ23VxfxbQP-9UVwI8Grmw_MCiCc')
 
