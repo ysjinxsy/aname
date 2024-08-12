@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 intents = nextcord.Intents.all()
-guild_id = [1266153230300090450, 1221092843288920065]
+guild_id = 1221092843288920065
 client = commands.Bot(command_prefix="?", intents=intents)
 DATABASE_PATH = "database.db"
 
