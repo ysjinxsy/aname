@@ -18,5 +18,5 @@ discord_token = os.environ.get('TOKEN')
 # Assuming you have commands defined in commands.py
 from commands import *
 
-client.run('MTI1NjAwMjgwMTg2ODIxMDMxNg.G2fBCy.fGbwUVYTN_L6TRuw16DcD65HoUOP-WJfa5ip5Y')
+client.run(discord_token)
 
